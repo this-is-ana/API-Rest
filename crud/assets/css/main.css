@@ -1,0 +1,36 @@
+body {
+    margin: 40px;
+    font-size: 18px;
+	font-family: sans-serif;
+}
+
+h1 {
+	margin-bottom: 60px;
+}
+
+th, td {
+	padding: 12px 15px;
+	text-align: left;
+}
+
+th {
+  background-color: #009879;
+  color: white;
+}
+
+tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+tr:nth-child(even) {
+	background-color: #f3f3f3;
+	color: #009879;
+}
+
+table {
+	margin-bottom: 60px;
+	text-transform: capitalize;
+	border-collapse: collapse;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+	min-width: 400px;
+}

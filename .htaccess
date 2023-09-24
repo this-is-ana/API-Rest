@@ -1,0 +1,6 @@
+RewriteEngine On
+RewriteRule ^film/([^\.]+) ./rest_film.php?id=$1
+RewriteRule ^film$ ./rest_film.php
+
+RewriteRule ^realisateur/([^\.]+) ./rest_realisateur.php?id=$1
+RewriteRule ^realisateur$ ./rest_realisateur.php
